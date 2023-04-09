@@ -1,0 +1,7 @@
+zhangsan,./home,100
+lisi,./index,100
+lisi,./index2,100
+lisi,./index3,100
+lisi,./index4,100
+lisi,./index5,100
+lisi,./index6,100

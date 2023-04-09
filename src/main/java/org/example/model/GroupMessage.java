@@ -10,6 +10,9 @@ public class GroupMessage {
     @JSONField(name = "SUMMARY")
     private String summary;
 
+    @JSONField(name = "TIMESTAMP")
+    private Long timestamp;
+
     @Override
     public String toString() {
         return "GroupMessage{" +
@@ -17,6 +20,14 @@ public class GroupMessage {
                 ", userUid='" + userUid + '\'' +
                 ", summary='" + summary + '\'' +
                 '}';
+    }
+
+    public Long getTimestamp() {
+        return timestamp;
+    }
+
+    public void setTimestamp(Long timestamp) {
+        this.timestamp = timestamp;
     }
 
     public String getUserUid() {
